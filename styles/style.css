@@ -1,4 +1,8 @@
 /* shared styles */
+* {
+    margin: 0;
+    padding: 0;
+}
 
 main {
     width: 1320px;
@@ -165,7 +169,6 @@ main {
 
 .comingsoon {
     align-items: center;
-    margin-bottom: 120px;
     display: flex;
     gap: 70px;
     justify-content: space-between;
@@ -232,4 +235,232 @@ main {
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
+}
+
+/* sale section styles */
+
+.sale {
+    margin: 120px 0;
+
+}
+
+.sale-top-title {
+    margin: 0;
+    text-align: center;
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sale-top-sub-title {
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.sale-top-strong {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.sale-top-description {
+    margin: 0 auto;
+    max-width: 70%;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.sale-mid {
+    margin-top: 60px;
+    align-items: center;
+    display: flex;
+    background-image: url('../images/sale-mid-bg.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.sale-mid-img-left {
+    z-index: 1;
+    margin-bottom: -17.5%;
+}
+
+.sale-down {
+    height: 229px;
+    background-image: url('../images/sale-down-bg.png');
+    background-repeat: no-repeat;
+    border-radius: 16px 0px 16px 16px;
+}
+
+/* portfolio section styles */
+
+.portfolio-content-title {
+    margin: 0;
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.portfolio-content-sub-title {
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.portfolio-content-description {
+    margin: 0;
+    padding-bottom: 45px;
+    max-width: 70%;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.portfolio-img-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+/* newsletter section styles */
+
+.newsletter {
+    text-align: center;
+    margin: 120px 0;
+    padding: 80px 0;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.newsletter-title {
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.newsletter-description {
+    max-width: 70%;
+    margin: 0 auto;
+    padding-bottom: 45px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.newsletter-form input[type="email"] {
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 25px 250px 25px 0px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    margin: 0;
+}
+
+.newsletter-form input[type="submit"] {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #F00;
+    padding: 23px 30px 24.5px 30px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    margin: 0 0 0 -5px;
+}
+
+/* Footer section styles */
+
+.hr {
+    color: rgba(255, 255, 255, 0.15);
+}
+
+footer {
+    background: #070211;
+}
+
+.footer {
+    width: 1320px;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+.footer-top {
+    gap: 550px;
+    display: flex;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    ;
+}
+
+.footer-top-left {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer-top-right-sub {
+    align-items: center;
+    display: flex;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    gap: 15px;
+}
+
+.footer-mid {
+    justify-content: center;
+    gap: 24px;
+    display: flex;
+    padding: 50px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    ;
+}
+
+.footer-down {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-dowm-content {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
 }
